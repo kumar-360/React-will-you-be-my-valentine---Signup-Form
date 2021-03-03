@@ -32,7 +32,7 @@ const Form = () => {
       }
       dataToPass += emailValue.charAt(i);
     }
-    console.log("hello");
+    //console.log("hello");
     setUserName(dataToPass);
   };
   const handleSubmit = () => {
@@ -115,7 +115,7 @@ const Form = () => {
         </button>
       </form>
       <div>{error}</div>
-      {clicked === true ? <div>Hello {userName}</div> : ""}
+      {/* {clicked === true ? <div>Hello {userName}</div> : ""} */}
     </div>
   );
 };
